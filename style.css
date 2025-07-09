@@ -1,0 +1,100 @@
+body {
+  background-color: #121212;
+  color: #e4e4e4;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+nav ul {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+nav ul li a {
+  color: #9ef58c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.page-header {
+  text-align: center;
+  padding: 2rem;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  color: #9ef58c;
+}
+
+.subtitle {
+  color: #cccccc;
+  font-style: italic;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #2c2c2c;
+  margin: 1rem auto;
+  width: 60%;
+}
+
+.feature-section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.feature-section h2 {
+  color: #9ef58c;
+  font-size: 1.8rem;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.3rem;
+}
+
+.feature-list {
+  padding-left: 1.2rem;
+  color: #ccc;
+}
+
+.section-blurb {
+  margin-top: 1rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.external-button {
+  display: inline-block;
+  margin: 2rem auto;
+  background-color: #9ef58c;
+  color: #121212;
+  text-decoration: none;
+  padding: 0.8rem 1.4rem;
+  border-radius: 6px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.2s ease;
+}
+
+.external-button:hover {
+  background-color: #82e079;
+}
+
+.page-footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+  padding: 2rem;
+  border-top: 1px solid #2c2c2c;
+}
+
+.page-footer a {
+  color: #9ef58c;
+  text-decoration: none;
+}
